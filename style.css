@@ -6,55 +6,58 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
      background-color: black;
+     
 }
 section {
     margin-top: 50px;
+    
 }
 table {
     border-spacing: 30px;
     margin:auto;
 }
 .container {
-margin: auto;
-  width: 50vw;
+   background: linear-gradient(35deg,#CCFFFF , #FFCCCC);
+   height: 80vh;
+   width: 50vw;
    margin-top: 100px;
+   margin: 50px auto;   
+   border: 2px solid rgb(68, 85, 23);
    border-radius: 20px;
-   border: 2px solid rgba(172, 199, 16, 0.836) ;
-   background-color: rgb(138, 138, 138);
 }
+
 @media only screen and (max-width: 800px) {
     .container {
         margin: auto;
           width: 50vw;
-           margin-top: 100px;
+           margin-top: 50px;
            border-radius: 20px;
-           border: 2px solid rgb(187, 255, 0) ;
-           background-color: rgb(138, 138, 138);
-}
+           background: linear-gradient(35deg,#CCFFFF , #FFCCCC);
+        }
 }
 @media only screen and (max-width: 600px) {
     .container {
         margin: auto;
           width: 60vw;
-           margin-top: 100px;
+           margin-top: 50px;
            border-radius: 20px;
-           border: 2px solid rgb(187, 255, 0) ;
-           background-color: rgb(138, 138, 138);
+           background: linear-gradient(35deg,#CCFFFF , #FFCCCC);
         }
 }
 table {
     margin: auto;
     border-spacing: 2px;
     font-size: small;
+    
 }
  
 @media only screen and (max-width: 400px) {
     .container {
         margin: auto;
           width: 90vw;
-           margin-top: 100px;
+           margin-top: 50px;
            border-radius: 20px;
-           border: 2px solid rgb(187, 255, 0) ;
-           background-color: rgb(252, 252, 252);
+             background: linear-gradient(35deg,#CCFFFF , #FFCCCC);
+            
         }
     }
