@@ -1,1 +1,1 @@
-https://antoniskol.github.io/-Responsive-Form-Table/
+ https://antoniskol.github.io/Form-Table/
