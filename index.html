@@ -11,10 +11,10 @@
 <body>
     <div class="container">
         <section> 
+            <!--Form Sart-->
             <form onsubmit="addToTable(event)">                
                 <label for="amount" >Amount</label>
-                <input type="number" id="amount" >  
-                   
+                <input type="number" id="amount">  
                 <select name="currency" id="cur">
                     <option value="Euros" id="euro">Euros</option>
                     <option value="Dollars" id="dollar">USD</option>
@@ -41,7 +41,10 @@
            <br> <br> <br>
                 <input type="submit" id="budget">
             </form>
+             <!--Form End-->
             <br><hr> 
+
+            <!--Table Start-->
                 <table>
                     <thead>
                         <tr>
@@ -55,7 +58,9 @@
                     <tbody id="data">
                     </tbody>
                 </table> <br> <br>
+                <!--Table End-->
                 
+ 
     </section>
 </div>
 </body>
